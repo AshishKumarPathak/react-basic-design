@@ -1,0 +1,81 @@
+html {height: 100vh;}
+body {background-image: url("back3(1).jpg");
+        //background-repeat: no-repeat;
+        opacity: 100%;
+        }
+.component-vendor-login{
+    background-image: "back.jpg" ;
+}
+
+.styled-table-venlogin{
+    border-collapse: collapse;
+    //margin: 25px 0;
+    align-items: center;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+    opacity: 100%;
+}
+.styled-table-venlogin thead tr {
+    background-color: green;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table-venlogin th,
+.styled-table-venlogin td {
+    padding: 12px 15px;
+}
+.styled-table-venlogin tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table-venlogin tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table-venlogin tbody tr:last-of-type {
+    border-bottom: 2px solid green;
+}
+
+
+#btn-v{
+    background-color:white ;
+    padding-left: 22px;
+    padding-top: 5px;
+    padding-right: 22px;
+    padding-bottom: 5px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+#btn-v:hover{
+    color: #fff;
+    background-color: green;
+}
+
+#navbar-vlogin{
+    background-color:transparent;
+    height: 35px;
+    padding-top:10px;
+    // position:fixed;
+    // top:0;
+    // width:100%;
+    
+}
+#logouttab-vlogin{
+    float:right;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 15px;
+    background-color: green;
+    border-radius: 15px;
+    margin-right: 15px;
+    height: 25px;
+    align-items: center;
+}
+
+#logouttab-vlogin:hover{
+    font-weight: bold;
+}

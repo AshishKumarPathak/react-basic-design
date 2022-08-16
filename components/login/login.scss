@@ -1,0 +1,91 @@
+
+.component-login{
+    
+}
+.styled-table-login{
+    border-collapse: collapse;
+    //margin: 25px 0;
+    align-items: center;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+}
+.styled-table-login thead tr {
+    background-color: #650098;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table-login th,
+.styled-table-login td {
+    padding: 12px 15px;
+}
+.styled-table-login tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table-login tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table-login tbody tr:last-of-type {
+    border-bottom: 2px solid #650098;
+}
+
+#btn-l{
+    background-color:white ;
+    padding-left: 22px;
+    padding-top: 5px;
+    padding-right: 22px;
+    padding-bottom: 5px;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+#btn-l:hover{
+    color: #fff;
+    background-color: #650098;
+}
+
+.previous-a a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+.previous-a a:hover {
+    background-color:  #650098;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+    float: right;
+    margin-right: 20px;
+  }
+  #navbar-login{
+    background-color:transparent;
+    height: 35px;
+    padding-top:10px;
+    // position:fixed;
+    // top:0;
+    // width:100%;
+    
+}
+#logouttab-login{
+    float:right;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-right: 15px;
+    background-color: #650098;
+    border-radius: 15px;
+    margin-right: 15px;
+    height: 25px;
+    align-items: center;
+}
+
+#logouttab-login:hover{
+    font-weight: bold;
+}
