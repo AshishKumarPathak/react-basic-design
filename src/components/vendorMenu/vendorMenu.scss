@@ -1,0 +1,39 @@
+
+.component-vendor-menu{
+    
+}
+.style-menu Link{
+    text-color:"white";
+}
+
+#navbar1{
+    background-color: green;
+    height: 35px;
+    padding-top:10px;
+    // position: fixed;
+    // width: 100%;
+    // top:0;
+}
+
+.tabs1{
+    float:left;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#logouttab1{
+    float:right;
+    color: white;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+#logouttab1:hover{
+    font-weight: bold;
+}
+
+.tabs1:hover{
+    font-weight: bold;
+}

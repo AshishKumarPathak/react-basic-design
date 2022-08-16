@@ -1,0 +1,35 @@
+
+.component-customer-orders{
+    
+}
+.styled-table1{
+    border-collapse: collapse;
+    //margin: 25px 0;
+    align-items: center;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.styled-table1 thead tr {
+    background-color: #650098;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table1 th,
+.styled-table1 td {
+    padding: 12px 15px;
+}
+.styled-table1 tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table1 tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table1 tbody tr:last-of-type {
+    border-bottom: 2px solid #650098;
+}
